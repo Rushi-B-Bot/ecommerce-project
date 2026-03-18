@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 
-app = FastAPI()
+app=FastAPI();
 
 @app.get("/")
-def read_root():
-    return {"message": "Hello FastAPI running on Ubuntu"}
+def Home():
+    return{ "msg": "Hello word"}
